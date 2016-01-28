@@ -1,3 +1,5 @@
 # HorizontalPagingCollectionView
 
-iOS-Horizontal Paging CollectionView
+iOS-Horizontal Paging CollectionView Example
+
+![](art/screenshot.png)

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GalleryCell" customModule="HorizontalPagingCollectionView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JjF-1J-Dlu">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="JjF-1J-Dlu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0YR-SP-uhL"/>
+                <constraint firstItem="JjF-1J-Dlu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4Qf-Hg-ZUw"/>
+                <constraint firstAttribute="bottom" secondItem="JjF-1J-Dlu" secondAttribute="bottom" id="J4Y-Ws-nAt"/>
+                <constraint firstAttribute="trailing" secondItem="JjF-1J-Dlu" secondAttribute="trailing" id="Vus-Kf-RNi"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="JjF-1J-Dlu" id="Lmq-CZ-oII"/>
+            </connections>
+            <point key="canvasLocation" x="599" y="463"/>
+        </view>
+    </objects>
+</document>
